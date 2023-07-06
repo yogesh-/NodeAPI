@@ -22,6 +22,12 @@ const PORT = process.env.PORT || 3100
 //homepage
 app.get('/',(req,res)=>{
     // res.send('Hello node api....')
+    // throw new Error('fake error')
+    res.send("Hello World")
+})
+
+app.get('/test',(req,res)=>{
+    // res.send('Hello node api....')
     throw new Error('fake error')
 })
 
