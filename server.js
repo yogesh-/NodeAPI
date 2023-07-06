@@ -16,7 +16,7 @@ app.use(cors())
 app.use('/api',productRoute)
 
 const MONGO_URL = process.env.MONGO_URL
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3100
 //routes
 
 //homepage
